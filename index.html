@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>مستشفى الأهدل لطب وجراحة العيون</title>
   <style>
+    @font-face {
+      font-family: 'Expo Arabic';
+      src: url('ExpoArabic-Bold.otf') format('truetype');
+      font-weight: bold;
+    }
     body {
-      font-family: Tahoma, Arial, sans-serif;
+      font-family: 'Expo Arabic', Tahoma, Arial, sans-serif;
       background: #f5f5f5;
       margin: 0;
       padding: 0;
@@ -17,24 +22,32 @@
     }
     .card {
       background: white;
-      padding: 30px;
+      padding: 35px 25px;
       border-radius: 15px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.2);
       text-align: center;
-      max-width: 400px;
-      width: 90%;
+      max-width: 500px;
+      width: 95%;
     }
     .logo {
-      max-width: 100px;
-      margin-bottom: 15px;
+      max-width: 180px;
+      margin-bottom: 20px;
     }
     h1 {
-      font-size: 22px;
+      font-size: 26px;
       color: #2c3e50;
       margin-bottom: 15px;
+      font-weight: bold;
+    }
+    .doctor {
+      font-size: 18px;
+      color: #34495e;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1.6;
     }
     p {
-      margin: 5px 0;
+      margin: 6px 0;
       color: #555;
       font-size: 16px;
     }
@@ -45,17 +58,35 @@
     a:hover {
       text-decoration: underline;
     }
+    .maintenance {
+      margin-top: 25px;
+      padding: 10px;
+      background: #ffeeba;
+      border: 1px solid #f0ad4e;
+      color: #856404;
+      font-size: 15px;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
   <div class="card">
     <img src="logo.png" alt="شعار المستشفى" class="logo">
     <h1>مستشفى الأهدل لطب وجراحة العيون</h1>
+    <div class="doctor">
+      تحت إشراف الدكتور: عبد الله الأهدل<br>
+      استشاري أمراض وجراحة العيون<br>
+      عضو الجمعية الأوروبية لأطباء العيون
+    </div>
     <p>📍 العنوان: تعز التحرير الأسفل - مدخل فندق آسيا</p>
-    <p>📞 777259333 - 772745555 - 777154154 </p>
+    <p>📞 777259333 - 772745555 - 777154154</p>
     <p>☎️ 04-259333</p>
     <p>✉️ <a href="mailto:info@alahdalhospital.com">info@alahdalhospital.com</a></p>
-    <p>🌐 <a href="https://alahdalhospital.com" target="_blank">ahahdalhospital.com</a></p>
+    <p>🌐 <a href="https://alahdalhospital.com" target="_blank">alahdalhospital.com</a></p>
+    
+    <div class="maintenance">
+      🔧 الموقع حالياً تحت الصيانة — نعتذر عن أي إزعاج
+    </div>
   </div>
 </body>
 </html>
